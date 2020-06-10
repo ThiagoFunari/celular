@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <!--#################### BOM DIA ####################-->
+<category>
+    <pattern>* Bom dia</pattern>
+    <template>
+       <random>
+           <li>Bom dia !!!</li>
+           <li>Bom dia, Muito obrigado por entrar em nosso chat! </li>
+           <li>Bom dia, Será otimo conversar com você hoje ! </li>
+           <li>Bom dia, Espero que esteja bem !</li>
+           <li>Bom dia, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Bom dia, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Bom dia *</pattern>
+    <template>
+       <random>
+           <li>Bom dia !!!</li>
+           <li>Bom dia, Muito obrigado por entrar em nosso chat! </li>
+           <li>Bom dia, Será otimo conversar com você hoje ! </li>
+           <li>Bom dia, Espero que esteja bem !</li>
+           <li>Bom dia, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Bom dia, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### BOA TARDE ####################-->
+<category>
+    <pattern>* Boa tarde</pattern>
+    <template>
+       <random>
+           <li>Boa tarde!!!</li>
+           <li>Boa tarde, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa tarde, Será otimo conversar com você hoje ! </li>
+           <li>Boa tarde, Espero que esteja bem !</li>
+           <li>Boa tarde, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa tarde, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Boa tarde *</pattern>
+    <template>
+       <random>
+           <li>Boa tarde!!!</li>
+           <li>Boa tarde, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa tarde, Será otimo conversar com você hoje ! </li>
+           <li>Boa tarde, Espero que esteja bem !</li>
+           <li>Boa tarde, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa tarde, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### BOA NOITE ####################-->
+<category>
+    <pattern>* Boa noite</pattern>
+    <template>
+       <random>
+           <li>Boa noite!!!</li>
+           <li>Boa noite, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa noite, Será otimo conversar com você hoje ! </li>
+           <li>Boa noite, Espero que esteja bem !</li>
+           <li>Boa noite, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa noite, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Boa noite *</pattern>
+    <template>
+       <random>
+           <li>Boa noite!!!</li>
+           <li>Boa noite, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa noite, Será otimo conversar com você hoje ! </li>
+           <li>Boa noite, Espero que esteja bem !</li>
+           <li>Boa noite, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa noite, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### BOA MADRUGADA ####################-->
+<category>
+    <pattern>* Boa Madrugada</pattern>
+    <template>
+       <random>
+           <li>Boa Madrugada!!!</li>
+           <li>Boa Madrugada, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa Madrugada, Será otimo conversar com você hoje ! </li>
+           <li>Boa Madrugada, Espero que esteja bem !</li>
+           <li>Boa Madrugada, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa Madrugada, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Boa Madrugada *</pattern>
+    <template>
+       <random>
+           <li>Boa Madrugada!!!</li>
+           <li>Boa Madrugada, Muito obrigado por entrar em nosso chat! </li>
+           <li>Boa Madrugada, Será otimo conversar com você hoje ! </li>
+           <li>Boa Madrugada, Espero que esteja bem !</li>
+           <li>Boa Madrugada, Estou aqui para te ajudar com suas duvidas</li>
+           <li>Boa Madrugada, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### OLA ####################-->
+<category>
+    <pattern>* Ola</pattern>
+    <template>
+       <random>
+           <li>Olá !!!</li>
+           <li>Olá, Muito obrigado por entrar em nosso chat! </li>
+           <li>Olá, Será otimo conversar com você hoje ! </li>
+           <li>Olá, Espero que esteja bem !</li>
+           <li>Olá, Estou aqui para te ajudar</li>
+           <li>Olá, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Ola *</pattern>
+    <template>
+       <random>
+           <li>Olá !!!</li>
+           <li>Olá, Muito obrigado por entrar em nosso chat! </li>
+           <li>Olá, Será otimo conversar com você hoje ! </li>
+           <li>Olá, Espero que esteja bem !</li>
+           <li>Olá, Estou aqui para te ajudar</li>
+           <li>Olá, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### OI ####################-->
+<category>
+    <pattern>* Oi</pattern>
+    <template>
+       <random>
+           <li>Olá !!!</li>
+           <li>Olá, Muito obrigado por entrar em nosso chat! </li>
+           <li>Olá, Será otimo conversar com você hoje ! </li>
+           <li>Olá, Espero que esteja bem !</li>
+           <li>Olá, Estou aqui para te ajudar</li>
+           <li>Olá, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+
+<category>
+    <pattern>Oi *</pattern>
+    <template>
+       <random>
+           <li>Olá !!!</li>
+           <li>Olá, Muito obrigado por entrar em nosso chat! </li>
+           <li>Olá, Será otimo conversar com você hoje ! </li>
+           <li>Olá, Espero que esteja bem !</li>
+           <li>Olá, Estou aqui para te ajudar</li>
+           <li>Olá, Que otimo vamos conversar sobre Smartphones </li>
+       </random> 
+    </template>
+</category>
+<!--#################### Muito Obrigado ####################-->
+ <category>
+    <pattern>* Muito Obrigado</pattern>
+    <template>
+       <random>
+           <li>Fico Feliz em ajudar !!!</li>
+           <li>Estou sempre a disposição </li>
+           <li>Tenha um bom dia</li>
+           <li>De nada !</li>
+           <li>Até Mais</li>
+       </random> 
+    </template>
+</category>
+
+ <category>
+    <pattern>Muito Obrigado *</pattern>
+    <template>
+       <random>
+           <li>Fico Feliz em ajudar !!!</li>
+           <li>Estou sempre a disposição </li>
+           <li>Tenha um bom dia</li>
+           <li>De nada !</li>
+           <li>Até Mais</li>
+       </random> 
+    </template>
+</category>
+<!--#################### O que é você ####################-->
+
+<category>
+    <pattern>O que é você  </pattern>
+    <template>Sou um ChatBoot 😀</template>
+</category>
+
+
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>

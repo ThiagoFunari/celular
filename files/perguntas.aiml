@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<!--#################### O que é um Smartphones ####################-->
+<category>
+    <pattern>* O que é um Smartphones</pattern>
+    <template> Smartphone significa telefone inteligente.
+    Geralmente, um smartphone pode possuir características mínimas de hardware e software,
+    sendo as principais a capacidade de conexão com redes de dados para acesso à internet,
+    a capacidade de sincronização dos dados do organizador com um computador pessoal. </template>
+ </category>
+<category><pattern>O que é um Smartphones *</pattern><template><srai>* O QUE É UM SMARTPHONES</srai></template></category>
+<!--#################### Me fale sobre as marcas ####################--> 
+ <category>
+      <pattern>* Me fale sobre as marcas</pattern>
+      <template> 
+      <ol>
+          <li>Samsung: a marca que mais vende e com mais opções de aparelhos.</li>
+          <li>Apple: qualidade e experiência topo de linha.</li>
+          <li>Motorola: a gigante que destaca-se pelos intermediários.</li>
+          <li>Asus: smartphones equilibrados em todas as categorias.</li>
+          <li>LG: marca tradicional e com presença sólida no país.</li>
+          <li>Huawei: celulares muito bons e com personalidade.</li>
+          <li>Xiaomi: desempenho com bom custo-benefício.</li>
+      </ol>
+    </template>
+</category>
+
+<category>
+      <pattern>Me fale sobre as marcas *</pattern>
+      <template> 
+      <ol>
+          <li>Samsung: a marca que mais vende e com mais opções de aparelhos.</li>
+          <li>Apple: qualidade e experiência topo de linha.</li>
+          <li>Motorola: a gigante que destaca-se pelos intermediários.</li>
+          <li>Asus: smartphones equilibrados em todas as categorias.</li>
+          <li>LG: marca tradicional e com presença sólida no país.</li>
+          <li>Huawei: celulares muito bons e com personalidade.</li>
+          <li>Xiaomi: desempenho com bom custo-benefício.</li>
+      </ol>
+    </template>
+</category>
+<!--#################### Marcas 2 ####################--> 
+    <category>
+        <pattern>* Marca</pattern>
+        <template>
+            <button>
+                <text>1 Samsung</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>2 Apple</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>3 Motorola</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>4 Asus</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>5 LG</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>6 Huawei</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>7 Xiaomi</text>
+                <postback></postback>
+            </button>
+        </template>
+    </category>
+    
+        <category>
+        <pattern>Marca *</pattern>
+        <template>
+            <button>
+                <text>1 Samsung</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>2 Apple</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>3 Motorola</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>4 Asus</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>5 LG</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>6 Huawei</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>7 Xiaomi</text>
+                <postback></postback>
+            </button>
+        </template>
+    </category>
+<!--#################### Samsung ####################-->
+<category>
+    <pattern>* Samsung</pattern>
+        <template>Entre os critérios utilizados para avaliação das marcas, a Samsung foi a que obteve melhor desempenho de maneira geral, o que faz com que a fabricante seja considerada a melhor marca de celulares não só por nós, mas também pelos brasileiros. A empresa coreana é a que atualmente mais vende celulares no país com folga, deixando para trás Motorola e Apple. 
+No quesito opções de aparelho, a Samsung ganha um com destaque, oferecendo diversas opções aos consumidores de diferentes bolsos e interesses. Atualmente a marca comercializa smartphones de entrada e intermediários em suas linhas A e M e aparelhos premium nas linhas S e Note, como o Galaxy S10, S10 Plus e o Galaxy Note 9.
+Quanto a qualidade dos aparelhos, a avaliação é positiva. O design da marca possui personalidade e boa usabilidade mesmo nos modelos mais simples e no quesito topo de linha o Galaxy S10 plus é possivelmente o melhor celular de 2019.
+        </template>
+</category>
+<category>
+    <pattern>Samsung *</pattern>
+        <template>Entre os critérios utilizados para avaliação das marcas, a Samsung foi a que obteve melhor desempenho de maneira geral, o que faz com que a fabricante seja considerada a melhor marca de celulares não só por nós, mas também pelos brasileiros. A empresa coreana é a que atualmente mais vende celulares no país com folga, deixando para trás Motorola e Apple. 
+No quesito opções de aparelho, a Samsung ganha um com destaque, oferecendo diversas opções aos consumidores de diferentes bolsos e interesses. Atualmente a marca comercializa smartphones de entrada e intermediários em suas linhas A e M e aparelhos premium nas linhas S e Note, como o Galaxy S10, S10 Plus e o Galaxy Note 9.
+Quanto a qualidade dos aparelhos, a avaliação é positiva. O design da marca possui personalidade e boa usabilidade mesmo nos modelos mais simples e no quesito topo de linha o Galaxy S10 plus é possivelmente o melhor celular de 2019.
+        </template>
+</category>
+<!--#################### Apple ####################-->
+<category>
+    <pattern>* Apple</pattern>
+        <template>A qualidade dos aparelhos da marca da maçã é conhecida tanto por entusiastas em tecnologia quanto pessoas comuns, prova disso é a repercussão a cada novo smartphone apresentado pela Apple. Apesar do preço não muito convidativo de seus aparelhos, as configurações e usabilidades dos smartphones costumam agradar bastante os proprietários de modelos com o sistema operacional IOS. 
+A Apple concentra suas energias criativas na produção de celulares focados para o público que busca experiência premium, trabalhando com apenas uma linha de celulares por vez (atualmente os Iphone XS e XR) enquanto ainda comercializa modelos de anos anteriores como os iPhones 8 e 7, mas sem o mesmo esforço comercial envolvido. E apesar das pouca variedade de produtos, a Apple vende muito bem no Brasil, ficando atrás apenas de Samsung e Motorola. 
+O atendimento posterior a compra por parte da Apple costuma ser muito bom. Como a fabricante trabalha para manter os seus consumidores atrelados a suas plataformas, a compatibilidade com produtos de outras empresas bem complicada. Logo, fica o conselho, não perca seus carregadores e fones de ouvido, principalmente se forem da Apple.
+        </template>
+</category>
+
+<category>
+    <pattern>Apple *</pattern>
+        <template>A qualidade dos aparelhos da marca da maçã é conhecida tanto por entusiastas em tecnologia quanto pessoas comuns, prova disso é a repercussão a cada novo smartphone apresentado pela Apple. Apesar do preço não muito convidativo de seus aparelhos, as configurações e usabilidades dos smartphones costumam agradar bastante os proprietários de modelos com o sistema operacional IOS. 
+A Apple concentra suas energias criativas na produção de celulares focados para o público que busca experiência premium, trabalhando com apenas uma linha de celulares por vez (atualmente os Iphone XS e XR) enquanto ainda comercializa modelos de anos anteriores como os iPhones 8 e 7, mas sem o mesmo esforço comercial envolvido. E apesar das pouca variedade de produtos, a Apple vende muito bem no Brasil, ficando atrás apenas de Samsung e Motorola. 
+O atendimento posterior a compra por parte da Apple costuma ser muito bom. Como a fabricante trabalha para manter os seus consumidores atrelados a suas plataformas, a compatibilidade com produtos de outras empresas bem complicada. Logo, fica o conselho, não perca seus carregadores e fones de ouvido, principalmente se forem da Apple.
+        </template>
+</category>
+<!--#################### Motorola ####################-->
+<category>
+    <pattern>* Motorola</pattern>
+        <template>A Motorola é uma marca bastante tradicional e está presente no Brasil muito antes do surgimento dos smartphones, quando sua principal concorrente por aqui ainda era a Nokia.  Após alguns anos de baixa, a marca reergueu-se em muitos lugares durante o período em que foi pertencente ao Google, fator que possibilitou a Motorola comercializar smartphones com até então a experiência do Android puro
+Atualmente parte da Lenovo, a Motorola é a fabricante da linha G que desde seu lançamento possui um modelo entre os mais vendidos do país e provavelmente algum aparelho da linha Moto G repetirá a dose em 2019. A empresa vende muito bem no Brasil, principalmente aparelhos voltados para o público de entrada e intermediário, apresentando como principal característica preços competitivos dos celulares Motorola com boas configurações. Apesar do lançamento recente do Motorola One Vision, um intermediário cheio de inovações e uma categoria acima da linha G, falta a marca uma opção entre os aparelhos topo de linha. 
+A marca é bem avaliada no pós-venda e sua rede de assistência técnica autorizada funciona de forma satisfatória. 
+        </template>
+</category>
+
+<category>
+    <pattern>Motorola *</pattern>
+        <template>A Motorola é uma marca bastante tradicional e está presente no Brasil muito antes do surgimento dos smartphones, quando sua principal concorrente por aqui ainda era a Nokia.  Após alguns anos de baixa, a marca reergueu-se em muitos lugares durante o período em que foi pertencente ao Google, fator que possibilitou a Motorola comercializar smartphones com até então a experiência do Android puro
+Atualmente parte da Lenovo, a Motorola é a fabricante da linha G que desde seu lançamento possui um modelo entre os mais vendidos do país e provavelmente algum aparelho da linha Moto G repetirá a dose em 2019. A empresa vende muito bem no Brasil, principalmente aparelhos voltados para o público de entrada e intermediário, apresentando como principal característica preços competitivos dos celulares Motorola com boas configurações. Apesar do lançamento recente do Motorola One Vision, um intermediário cheio de inovações e uma categoria acima da linha G, falta a marca uma opção entre os aparelhos topo de linha. 
+A marca é bem avaliada no pós-venda e sua rede de assistência técnica autorizada funciona de forma satisfatória. 
+        </template>
+</category>
+<!--#################### Asus ####################-->
+<category>
+    <pattern>* Asus</pattern>
+        <template>Fundada em Taiwan no final dos anos 80, a Asus chegou ao Brasil em 2014 e desde então vem se destacando por bons aparelhos em diferentes categorias. O atendimento da empresa está na média das principais marcas no pais e a resposta das ocorrências feitas a empresa costuma ser bastante rápida em seus canais oficiais. 
+A marca disponibiliza ao consumidor brasileiro um grande leque de opções com aparelhos de entrada a topos de linha com configurações e preços competitivo. Os celulares Asus apresentam design interessante, corpo bem construído e estruturado, câmeras de qualidade condizentes com a categoria do aparelho em que estão presentes, inovações tecnológicas e boa bateria, como o Zenfone Max pro 1, modelo com preço acessível e com 5.000 mAh de bateria – considerado por nós como o celular com a melhor bateria de 2019.
+Um ponto negativo é o valor, que embora não seja muito caro, é possível encontrar aparelhos semelhantes de outras marcas com preço um pouco mais baixo. A assistência técnica está se expandido pelo Brasil, mas poderia ter uma cobertura maior.
+        </template>
+</category>
+
+<category>
+    <pattern>Asus *</pattern>
+        <template>Fundada em Taiwan no final dos anos 80, a Asus chegou ao Brasil em 2014 e desde então vem se destacando por bons aparelhos em diferentes categorias. O atendimento da empresa está na média das principais marcas no pais e a resposta das ocorrências feitas a empresa costuma ser bastante rápida em seus canais oficiais. 
+A marca disponibiliza ao consumidor brasileiro um grande leque de opções com aparelhos de entrada a topos de linha com configurações e preços competitivo. Os celulares Asus apresentam design interessante, corpo bem construído e estruturado, câmeras de qualidade condizentes com a categoria do aparelho em que estão presentes, inovações tecnológicas e boa bateria, como o Zenfone Max pro 1, modelo com preço acessível e com 5.000 mAh de bateria – considerado por nós como o celular com a melhor bateria de 2019.
+Um ponto negativo é o valor, que embora não seja muito caro, é possível encontrar aparelhos semelhantes de outras marcas com preço um pouco mais baixo. A assistência técnica está se expandido pelo Brasil, mas poderia ter uma cobertura maior.
+        </template>
+</category>
+<!--#################### LG ####################-->
+<category>
+    <pattern>* LG</pattern>
+        <template>Os celulares da LG costumam ser caros em seu lançamento, mas normalmente são um bom negócio passados alguns meses. O fato de estar presente no país há alguns anos e atuando em vários ramos dentro do mercado de eletrônicos torna o atendimento da marca por aqui um fator positivo e que a colocou nessa posição entre as melhores marcas de celulares disponíveis no Brasil. 
+A gigante coreana da tecnologia que também é muito forte no setor de eletrônicos em geral, principalmente as TVs LG, já foi uma das líderes em vendas de celular no Brasil, porém caiu algumas posições nos últimos anos após aparelhos da marca não acompanharem tendências de mercado como maior autonomia de bateria, fator que já foi solucionado nas últimas linhas de smartphone da LG. 
+A fabricante costumeiramente traz boas inovações ao mercado e ainda é bastante relevante em vendas, ofertando bons aparelhos em todas as categorias. Os aparelhos de entrada estão entre os mais acessíveis do mercado e mais novo celular Premium do seu catálogo, LG G8s Thinq apresenta o diferencial de usar a tela e desbloquear o aparelho sem tocá-lo. 
+        </template>
+</category>
+
+<category>
+    <pattern>LG *</pattern>
+        <template>Os celulares da LG costumam ser caros em seu lançamento, mas normalmente são um bom negócio passados alguns meses. O fato de estar presente no país há alguns anos e atuando em vários ramos dentro do mercado de eletrônicos torna o atendimento da marca por aqui um fator positivo e que a colocou nessa posição entre as melhores marcas de celulares disponíveis no Brasil. 
+A gigante coreana da tecnologia que também é muito forte no setor de eletrônicos em geral, principalmente as TVs LG, já foi uma das líderes em vendas de celular no Brasil, porém caiu algumas posições nos últimos anos após aparelhos da marca não acompanharem tendências de mercado como maior autonomia de bateria, fator que já foi solucionado nas últimas linhas de smartphone da LG. 
+A fabricante costumeiramente traz boas inovações ao mercado e ainda é bastante relevante em vendas, ofertando bons aparelhos em todas as categorias. Os aparelhos de entrada estão entre os mais acessíveis do mercado e mais novo celular Premium do seu catálogo, LG G8s Thinq apresenta o diferencial de usar a tela e desbloquear o aparelho sem tocá-lo. 
+        </template>
+</category>
+
+<!--#################### Huawei ####################-->
+<category>
+    <pattern>* Huawei</pattern>
+        <template>Os números da Huawei no mundo são impressionantes. Apesar de boa parte das vendas serem para o mercado chinês, terra natal da empresa, sua expansão global é cada vez maior a volta ao Brasil este ano é prova disso. 
+Destacando-se pelo ótimo custo-benefício de seus aparelhos, a empresa fabrica modelos de ponta. Seu modelo premium P 30 Pro é um smartphone bastante poderoso e que em nada deixa a desejar aos concorrentes Galaxy S10+ e iPhone XS, tornando a escolha entre os três modelos mais baseada em preferências pessoais do que por diferenças consideráveis de desempenho. 
+Embora responda com rapidez às solicitações feitas em seus canais oficiais, um ponto negativo comum em empresas com trajetória curta no país é a presença reduzida de locais em assistência técnica, principalmente em estados fora da região Sudeste. 
+        </template>
+</category>
+
+<category>
+    <pattern>Huawei *</pattern>
+        <template>Os números da Huawei no mundo são impressionantes. Apesar de boa parte das vendas serem para o mercado chinês, terra natal da empresa, sua expansão global é cada vez maior a volta ao Brasil este ano é prova disso. 
+Destacando-se pelo ótimo custo-benefício de seus aparelhos, a empresa fabrica modelos de ponta. Seu modelo premium P 30 Pro é um smartphone bastante poderoso e que em nada deixa a desejar aos concorrentes Galaxy S10+ e iPhone XS, tornando a escolha entre os três modelos mais baseada em preferências pessoais do que por diferenças consideráveis de desempenho. 
+Embora responda com rapidez às solicitações feitas em seus canais oficiais, um ponto negativo comum em empresas com trajetória curta no país é a presença reduzida de locais em assistência técnica, principalmente em estados fora da região Sudeste. 
+        </template>
+</category>
+<!--#################### Xiaomi ####################-->
+<category>
+    <pattern>* Xiaomi</pattern>
+        <template>A outra fabricante chinesa que também apresenta relação custo-benefício de encher os olhos é a Xiaomi. A empresa foi criada em 2010 com um plano de crescimento interessante, que era focado em pouco investimento em marketing e menos intermediários entre a fabricante e seus consumidores. A Xiaomi reduziu gastos e conquistou uma base sólida de clientes na China e em outros países da Ásia, como o gigantesco mercado indiano. 
+Um das diferenças entre ela e sua compatriota Huawei está em uma possível ausência de identidade visual em seus aparelhos, além de produtos da empresa que brigam pela mesma fatia de consumidores. Pode ser complicado para o consumidor escolher qual aparelho da Xiaomi comprar, pois a marca possui opções com configurações e faixas de preço parecidos, embora tenham estilos e design diferentes entre eles, sendo complicado identificar os modelos da fabricante apenas com um rápido olhar. 
+Exemplos disso são Pocofone F1 e o Mi 8 que são aparelhos com identidades visuais bastante diferentes, mas com preços e configurações semelhantes. Os smartphones da Xiaomi tem como característica a presença da MIUI, interface criada pela empresa aplicada sobre o Android que é bem bonito, atualizado com constância e pode ser interessante para quem busca uma experiência diferente no sistema Android.
+        </template>
+</category>
+
+<category>
+    <pattern>Xiaomi *</pattern>
+        <template>A outra fabricante chinesa que também apresenta relação custo-benefício de encher os olhos é a Xiaomi. A empresa foi criada em 2010 com um plano de crescimento interessante, que era focado em pouco investimento em marketing e menos intermediários entre a fabricante e seus consumidores. A Xiaomi reduziu gastos e conquistou uma base sólida de clientes na China e em outros países da Ásia, como o gigantesco mercado indiano. 
+Um das diferenças entre ela e sua compatriota Huawei está em uma possível ausência de identidade visual em seus aparelhos, além de produtos da empresa que brigam pela mesma fatia de consumidores. Pode ser complicado para o consumidor escolher qual aparelho da Xiaomi comprar, pois a marca possui opções com configurações e faixas de preço parecidos, embora tenham estilos e design diferentes entre eles, sendo complicado identificar os modelos da fabricante apenas com um rápido olhar. 
+Exemplos disso são Pocofone F1 e o Mi 8 que são aparelhos com identidades visuais bastante diferentes, mas com preços e configurações semelhantes. Os smartphones da Xiaomi tem como característica a presença da MIUI, interface criada pela empresa aplicada sobre o Android que é bem bonito, atualizado com constância e pode ser interessante para quem busca uma experiência diferente no sistema Android.
+        </template>
+</category>
+
+<!--#################### nao apagar o </aiml> e se for continuar contiuar em cima dessa linha ####################-->
+</aiml>

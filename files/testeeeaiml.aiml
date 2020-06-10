@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+<!--   
+
+    <category>
+        <pattern>Marca</pattern>
+        <template>
+            <button>
+                <text>1 Samsung</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>2 Apple</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>3 Motorola</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>4 Asus</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>5 LG</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>6 Huawei</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>7 Xiaomi</text>
+                <postback></postback>
+            </button>
+        </template>
+    </category>
+    
+-->  
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<!--#################### nao apagar o </aiml> e se for continuar contiuar em cima dessa linha ####################-->
+</aiml>
