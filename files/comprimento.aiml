@@ -195,16 +195,7 @@
        </random> 
     </template>
 </category>
-<!--#################### O que é você ####################-->
+<!--####################  ####################-->
 
-<category>
-    <pattern>O que é você  </pattern>
-    <template>Sou um ChatBoot 😀</template>
-</category>
-
-
-<category>
-    <pattern></pattern>
-    <template></template>
-</category>
+<!--#################### nao apagar o </aiml> e se for continuar contiuar em cima dessa linha ####################-->
 </aiml>
